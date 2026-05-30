@@ -18,7 +18,7 @@ from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
 from dotenv import load_dotenv
 
-load_dotenv("/home/kitagishi/.claude/.env")
+load_dotenv("/home/kitagishi/.claude/hooks/.env")
 
 # --- Langfuse import (fail-open) ---
 try:
