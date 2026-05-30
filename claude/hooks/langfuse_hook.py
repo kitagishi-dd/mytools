@@ -16,6 +16,9 @@ from datetime import datetime, timedelta, timezone
 from logging.handlers import RotatingFileHandler
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
+from dotenv import load_dotenv
+
+load_dotenv("/home/kitagishi/.claude/.env")
 
 # --- Langfuse import (fail-open) ---
 try:
