@@ -7,3 +7,5 @@ prefix_rule(pattern = ["halt"], decision = "forbidden", justification = "Claude 
 prefix_rule(pattern = ["poweroff"], decision = "forbidden", justification = "Claude の禁止設定に一致します。")
 prefix_rule(pattern = ["npm", "install"], decision = "forbidden", justification = "Claude の禁止設定に一致します。")
 prefix_rule(pattern = ["npm", "i"], decision = "forbidden", justification = "Claude の禁止設定に一致します。")
+prefix_rule(pattern = ["git", "commit"], decision = "allow", justification = "実行の明示承認は AGENTS.md に従い、環境側の重複確認を省きます。")
+prefix_rule(pattern = ["git", "push"], decision = "allow", justification = "実行の明示承認は AGENTS.md に従い、環境側の重複確認を省きます。")
