@@ -1,0 +1,9 @@
+# Wildcards are checked by the hook; only equivalent token prefixes belong here.
+prefix_rule(pattern = ["sudo"], decision = "forbidden", justification = "Claude の禁止設定に一致します。")
+prefix_rule(pattern = ["rm", "-rf", "/"], decision = "forbidden", justification = "Claude の禁止設定に一致します。")
+prefix_rule(pattern = ["shutdown"], decision = "forbidden", justification = "Claude の禁止設定に一致します。")
+prefix_rule(pattern = ["reboot"], decision = "forbidden", justification = "Claude の禁止設定に一致します。")
+prefix_rule(pattern = ["halt"], decision = "forbidden", justification = "Claude の禁止設定に一致します。")
+prefix_rule(pattern = ["poweroff"], decision = "forbidden", justification = "Claude の禁止設定に一致します。")
+prefix_rule(pattern = ["npm", "install"], decision = "forbidden", justification = "Claude の禁止設定に一致します。")
+prefix_rule(pattern = ["npm", "i"], decision = "forbidden", justification = "Claude の禁止設定に一致します。")

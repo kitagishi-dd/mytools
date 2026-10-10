@@ -1,0 +1,20 @@
+{
+  "title": "Google Engineering Practices \u2014 Code Review Developer Guide",
+  "author": "Google",
+  "repository": "https://github.com/google/eng-practices",
+  "commit": "3bb3ec25b3b0199f4940b1aa75f0ac5c5753301c",
+  "license": "CC BY 3.0",
+  "license_url": "https://creativecommons.org/licenses/by/3.0/",
+  "retrieved": "2026-10-07",
+  "format": "Raw Markdown reconstructed from web tool numbered lines; LF normalized. Repository archived; master points to recorded commit.",
+  "files": {
+    "LICENSE": "d37d38afcf465db22d61a97b7098325a0f2e8cb9a02636bf2694e6c4cdab6f00",
+    "review/emergencies.md": "a9c06dba763045e389aaf0bd88ea625e766482715595c24f0a79b11794816830",
+    "review/reviewer/looking-for.md": "7cfbd469e7be59e9e4cfebac4a703f9d279f98bc58518ee4bfc4ad6cb46301ec",
+    "review/reviewer/standard.md": "f508d17bdb0da9e9476c46099d2f7c3b4b134a254584adc3a8c562c6acb961f5",
+    "review/reviewer/comments.md": "c13268f21580b2239b7eafa1eb134dde7b67660831a7b5c882e569174fd2cbbd",
+    "review/reviewer/navigate.md": "fbe08cfe7d313c8a73af524e5f871662a0313b01edc2a36ac766ea8f450fbee7",
+    "review/developer/cl-descriptions.md": "c6b0a67b03852fd9a7452e5048b242ebef9fc229ccc3c58d132e3b966a38e875",
+    "review/developer/small-cls.md": "6707fe89d5ccbc05f7b4cc5d3664915cd3997f8502e868448d2af57cbe4094ef"
+  }
+}
