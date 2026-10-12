@@ -20,6 +20,12 @@ trust_level = "trusted"
 [projects."/home/kitagishi/AI_Shibutani"]
 trust_level = "trusted"
 
+[projects."/home/kitagishi/work/261009_113web"]
+trust_level = "trusted"
+
+[projects."/home/kitagishi/mytools"]
+trust_level = "trusted"
+
 [features]
 hooks = true
 
