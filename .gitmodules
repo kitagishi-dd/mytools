@@ -1,0 +1,6 @@
+[submodule "skills/oh-my-mermaid"]
+	path = skills/oh-my-mermaid
+	url = https://github.com/oh-my-mermaid/oh-my-mermaid.git
+[submodule "skills/mattpocock-skills"]
+	path = skills/mattpocock-skills
+	url = https://github.com/mattpocock/skills.git
